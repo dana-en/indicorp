@@ -299,6 +299,9 @@
         max-width: 225px;
         margin: 10px auto 75px;
     }
+    .choose .container{
+        max-width: 247px;
+    }
     .practice .section_title{
         max-width: 180px;
         margin: 0 auto;
@@ -313,5 +316,56 @@
     .practice_card{
         max-width: 230px;
         margin: 0 auto;
+    }
+    .about .section_title, .about .section_desc{
+        display: none;
+    }
+    .section_title.about_title_sm{
+        display: block;
+        max-width: 308px;
+    }
+    .section_desc.about_desc_sm{
+        display: block;
+        max-width: 225px;
+    }
+    .about .container{
+        max-width: 333px;
+    }
+    .about_video{
+        height: 442px;
+        width: 333px;
+    }
+    .section_title.about_title{
+        display: block;
+        text-align: left;
+    }
+    .section_desc.about_text{
+        display: block;
+    }
+    .about_content{
+        max-width: 333px;
+    }
+    .clients_container svg{
+        width: 120%;
+    }
+    .clients_inp{
+        width: 220%;
+    }
+    .contact_grid{
+        width: 320px;
+    }
+    .contact-us .container{
+        width: 262px;
+    }
+    .contact-us .section_title{
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+    }
+    .footer_top .container{
+        padding: 0;
+    }
+    .footer_bottom .container{
+        max-width: 231px;
     }
 }

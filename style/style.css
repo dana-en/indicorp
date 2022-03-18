@@ -332,6 +332,12 @@ a{
     color: #252B42;
     margin-bottom: 5px;
 }
+.section_title.about_title_sm{
+    display: none;
+}
+.section_desc.about_desc_sm{
+    display: none;
+}
 .about_sm_desc{
     font-weight: 600;
     font-size: 14px;
